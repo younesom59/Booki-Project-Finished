@@ -280,7 +280,7 @@ a {
 }
 
 .hebergements a {
-	width: 250px;
+	width: 268px;
 }
 
 .hebergements-cards .card {
@@ -557,7 +557,7 @@ footer {
 	}
 
 	.populaires-cards a {
-		width: 30%;
+		width: 33%;
 	}
 
 	.populaires-cards .card-title {
@@ -655,6 +655,10 @@ footer {
 		gap: 0;
 	}
 
+	.hebergements {
+		background-color: white !important;
+	}
+
 	.hebergements-link,
 	.activites-link {
 		border-top: none;
@@ -749,7 +753,7 @@ footer {
 
 	.hebergements-and-populaires {
 		display: flex;
-		flex-direction: column;
+		flex-direction: column-reverse;
 		align-items: center;
 		gap: 15px;
 	}
@@ -880,6 +884,7 @@ footer {
 	.activites-title {
 		height: 30.019px;
 		align-self: stretch;
+		padding: 0;
 	}
 
 	.activites-bloc h2 {

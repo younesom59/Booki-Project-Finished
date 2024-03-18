@@ -280,7 +280,7 @@ a {
 }
 
 .hebergements a {
-	width: 268px;
+	width: 250px;
 }
 
 .hebergements-cards .card {
@@ -518,6 +518,10 @@ footer {
 
 	.hebergements {
 		width: 100%;
+	}
+
+	.hebergements a {
+		width: 268px;
 	}
 
 	.populaires {

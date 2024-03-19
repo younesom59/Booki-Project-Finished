@@ -801,6 +801,7 @@ footer {
 		width: 100%;
 	}
 
+
 	.hebergements-cards card {
 		width: 100%;
 		height: 200px;
@@ -857,6 +858,7 @@ footer {
 	}
 
 	.card-content {
+		padding-left: 0px !important;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;

@@ -598,38 +598,35 @@ footer {
 /* Medium devices (less/equal than 768px, generally associated with tablets in portrait mode.) */
 
 @media (max-width: 768px) {
-	.searchbutton {
-		display: none;
+
+	* {
+		max-width: 100%;
 	}
 
-	.searchicon {
-		display: inline-flex;
-		height: 49px;
-		padding: 15px 16px;
-		align-items: center;
-		gap: 10px;
-		flex-shrink: 0;
-		border-radius: 15px;
-		border: 1px solid var(--Blue, #0065FC);
-		background: var(--Blue, #0065FC);
-		box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
-		margin-left: -25px;
+	.main-container{
+		padding: 0 20px;
 	}
 
-	.searchicon i {
-		color: white;
-		font-size: 18px;
+	.search_bar {
+		justify-content: space-between;
+		width: 100%;
+		max-width: 377px;
 	}
 
-	.fa-magnifying-glass {
-		display: inline;
+
+	header {
+		max-width: 1000%;
 	}
 
 	.filters_group {
-		gap: 10px;
+		display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;
 	}
 
 	.filters {
+		width: 40%;
+		min-width: 125px;
 		padding: 4px 10px 4px 10px !important;
 	}
 
@@ -665,11 +662,13 @@ footer {
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 375px) {
+@media (max-width: 320px) {
 	* {
 		margin: 0px;
 		max-width: 100%;
 	}
+
+
 
 	.logo-du-site {
 		padding: 30px;
@@ -736,6 +735,7 @@ footer {
 		height: 49px;
 		margin: 0;
 		justify-content: space-between;
+		width: 100%;
 	}
 
 	.searchbutton {
@@ -765,6 +765,11 @@ footer {
 		display: inline;
 	}
 
+
+	.filters_group {
+		gap: 10px;
+	}
+
 	.filters_title {
 		margin-bottom: -20px;
 	}
@@ -777,13 +782,12 @@ footer {
 
 	.filters {
 		width: 125px !important;
+		min-width: 63px;
 		height: 42px;
-		gap: 10px;
 		position: relative;
 		z-index: 1;
 		padding: 4px 19px;
 		border-radius: 25px;
-		gap: 10px;
 		flex: 1 0 0;
 	}
 
